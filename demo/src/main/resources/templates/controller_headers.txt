@@ -1,0 +1,12 @@
+package shenefelt.demo.controller;
+
+import shenefelt.demo.entity.User;
+import shenefelt.demo.repository.UserRepository;
+import lombok.RequiredArgsConstructor;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
+@RestController
+@RequestMapping("/api/<fillme>")
+@RequiredArgsConstructor
